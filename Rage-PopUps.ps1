@@ -37,17 +37,18 @@ $cycles = 4
 # List as many questions here as you like, it will cycke through all of them
 
 $msgs = @(
-"Bitte den Button drücken!"
-"Wer den Button drückt ist doof!"
+"Bitte den Nein-Button druecken!"
+"Bitte den Ja-Button druecken!"
+"Wer einen Button drueckt ist doof!"
 "Wer nicht klickt, der ist ein Nazi!"
-"Who let the Dogs out?"
+"Who let the Dogs out? You?"
 "Lust auf noch eine Runde?"
 )
 
 for ($i=1; $i -le $cycles; $i++) {
 
 Foreach ($msg in $msgs) {
-[System.Windows.Forms.MessageBox]::Show($msg , "You're-a-Loser.exe" , 4 , 'Question')
+[System.Windows.Forms.MessageBox]::Show($msg , "Sinnloser-Zeitvertreib.exe" , 4 , 'Question')
 }
 }
 
